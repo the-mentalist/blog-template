@@ -1,0 +1,46 @@
+.PrimaryNav {
+    float: right;
+}
+
+.PrimaryNav > li {
+    float: left;
+    background-color: #fff;
+}
+
+.PrimaryNav > li > a {
+    float: left;
+    border-left: 1px solid black;
+    width: 150px;
+    padding: 20px 0;
+}
+
+.PrimaryNav > li:first-child > a {
+    border-left: none;
+}
+
+nav li a {
+    text-align: center;
+    color: #413d39;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Arial;
+    transition: 0.2s background-color ease-in;
+}
+
+nav li a:hover,
+nav li a:focus,
+nav li a.active {
+    color: #fff;
+    background-color: #413d39;
+}
+
+.Grouping:before,
+.Grouping:after {
+    content: ' ';
+    display: table;
+}
+
+.Grouping:after {
+    clear: both;
+}
